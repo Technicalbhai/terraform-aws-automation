@@ -145,6 +145,6 @@ resource "aws_instance" "web-server" {
               sudo bach -c 'echo your the very first web server > /var/www/html/index.html'         
               EOF
     tags = {
-    Name = "bismillah"
+    Name = "ubuntu-server"
     }
 }              
